@@ -1550,6 +1550,7 @@ hr.fancy::before {
  * -------------------------------------------------------------------- */
 .lead,
 .attention-getter {
+    background-color : inherit;
     font-family : var(--font-1);
     font-weight : 300;
     font-size   : var(--text-md);
@@ -3414,7 +3415,7 @@ img.u-pull-left {
 
 .about-info__text {
     padding     : var(--vspace-3_5) 10vw var(--vspace-2) 0;
-    margin-left : -4rem;
+    margin-left : 1rem;
 }
 
 .about-info__text .text-pretitle {
@@ -4144,6 +4145,9 @@ img.u-pull-left {
     color : white;
 }
 
+.spanFooter {
+    display: none;
+}
 /* ------------------------------------------------------------------- 
  * ## copyright
  * ------------------------------------------------------------------- */
@@ -4151,6 +4155,7 @@ img.u-pull-left {
     margin-top   : calc(var(--vspace-0_25) * -1);
     margin-right : 5.2rem;
     line-height  : var(--vspace-0_875);
+    display: none;
 }
 
 .ss-copyright span {
